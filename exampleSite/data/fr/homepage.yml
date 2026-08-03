@@ -1,0 +1,140 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/banner/banner-1.jpg"
+  slider_item:
+    # slider item loop
+    - title : "Kamesko Sacco – Tuwekeze Tuimarike"
+      content : "Catalyser l'industrie, concrétiser les rêves, prospérer ensemble. Offrir un financement abordable grâce à la mobilisation de nos ressources."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Rejoignez-nous"
+        link : "contact/"
+
+    # slider item loop
+    - title : "Ensemble nous grandissons, ensemble nous prospérons"
+      content : "Votre succès est notre succès. Ensemble, nous bâtissons une richesse durable. Des prêts rapides et abordables pour tous vos besoins."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Demander un prêt"
+        link : "course/"
+
+    # slider item loop
+    - title : "Votre partenaire financier de confiance"
+      content : "Sûr et fiable. Vos économies sont protégées. Dividendes attrayants et intérêts sur les économies pour tous nos membres."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Contactez-nous"
+        link : "contact/"
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : true
+  image : "images/banner/banner-feature.png"
+  feature_item:
+    # feature item loop
+    - name : "Approbation rapide"
+      icon : "ti-timer" # icon pack : https://themify.me/themify-icons
+      content : "Traitement de prêt rapide et sans tracas pour tous nos membres."
+
+    # feature item loop
+    - name : "Taux d'intérêt compétitifs"
+      icon : "ti-stats-up" # icon pack : https://themify.me/themify-icons
+      content : "Des taux plus bas, une meilleure valeur pour chaque shilling emprunté."
+
+    # feature item loop
+    - name : "Remboursement flexible"
+      icon : "ti-receipt" # icon pack : https://themify.me/themify-icons
+      content : "Des plans de remboursement adaptés à vos besoins et à votre cycle agricole."
+
+    # feature item loop
+    - name : "Sûr et fiable"
+      icon : "ti-shield" # icon pack : https://themify.me/themify-icons
+      content : "Vos économies sont protégées. Nous nous engageons à offrir des prêts rapides et abordables."
+
+
+############################## about ##################################
+about:
+  enable : true
+  title : "À propos de Kamesko Sacco Society"
+  image : "images/about/about-us.jpg"
+  content : "Kamesko Sacco Society est une coopérative financière détenue par ses membres située à Kansabet, comté de Nandi. Nous nous engageons à catalyser l'industrie, à concrétiser les rêves et à prospérer ensemble avec nos membres. Grâce à la mobilisation de nos ressources, nous offrons un financement abordable qui autonomise les agriculteurs et la communauté. Ensemble nous grandissons, ensemble nous prospérons – votre succès est notre succès."
+  button:
+    enable : true
+    label : "En savoir plus"
+    link : "about/"
+
+
+############################# Course ################################
+course:
+  enable : true
+  title : "Nos produits de prêt"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : true
+  subtitle : "Des prêts abordables pour tous les besoins"
+  title : "Prêts rapides et abordables"
+  button:
+    enable : true
+    label : "Postuler"
+    link : "contact/"
+
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "Prospérité partagée, impact réel"
+  content : "Kamesko Sacco récompense ses membres avec des dividendes attrayants et des intérêts sur les économies. Nous offrons des liens avec des partenaires participants, vous donnant accès à plus d'opportunités et de valeur grâce à nos partenariats de confiance. Nous réinvestissons en vous et dans notre communauté. Votre succès est notre succès. Ensemble, nous bâtissons une richesse durable."
+  # video link
+  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+
+
+############################# event ################################
+event:
+  enable : true
+  title : "Événements à venir"
+  # event item comes from "content/**/event" folder.
+
+  
+########################### funfacts ############################
+funfacts:
+  enable : true
+  funfact_item:
+    # funfact item loop
+    - name : "MEMBRES"
+      count : "60"
+
+    # funfact item loop
+    - name : "PRODUITS DE PRÊT"
+      count : "50"
+
+    # funfact item loop
+    - name : "AGRICULTEURS"
+      count : "1000"
+
+    # funfact item loop
+    - name : "MEMBRES SATISFAITS"
+      count : "1400"
+
+# funfact is for about page
+
+
+
+############################# blog ################################
+blog:
+  enable : true
+  title : "DERNIÈRES NOUVELLES"
+  # blog item comes from "content/**/blog" folder.

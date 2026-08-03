@@ -1,0 +1,25 @@
+################################### English language #####################################
+[en]
+label = "En"
+locale = "en-us"
+contentDir = "content/english"
+weight = 1
+
+[en.params]
+home = "Home"
+# copyright
+copyright = "Copyright &copy; 2026 Kamesko Sacco Society. All rights reserved. Tuwekeze tuimarike."
+
+
+
+################################### French language #####################################
+[fr]
+label = "Fr"
+locale = "fr-fr"
+contentDir = "content/french"
+weight = 2
+
+[fr.params]
+home = "Accueil"
+# copyright
+copyright = "Copyright &copy; 2026 Kamesko Sacco Society. Tous droits réservés. Tuwekeze tuimarike."

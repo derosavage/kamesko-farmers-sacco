@@ -1,0 +1,61 @@
+################### English navigation ####################
+
+# main menu
+[[main]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[main]]
+name = "Loan Products"
+url = "course/"
+weight = 2
+
+[[main]]
+weight = 3
+name = "Pages"
+hasChildren = true
+
+  [[main]]
+  parent = "Pages"
+  name = "Notices"
+  url = "notice/"
+
+  [[main]]
+  parent = "Pages"
+  name = "Events"
+  url = "event/"
+
+  [[main]]
+  parent = "Pages"
+  name = "Research"
+  url = "research/"
+
+[[main]]
+name = "News"
+url = "blog/"
+weight = 4
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 5
+
+
+# footer menu
+
+[[footer]]
+name = "Notices"
+url = "notice/"
+
+[[footer]]
+name = "Events"
+url = "event/"
+
+[[footer]]
+name = "Research"
+url = "research/"
+
+[[footer]]
+name = "Contact"
+url = "contact/"

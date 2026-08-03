@@ -1,0 +1,140 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/banner/banner-1.jpg"
+  slider_item:
+    # slider item loop
+    - title : "Kamesko Sacco – Tuwekeze Tuimarike"
+      content : "Catalyzing the industry, actualizing the dreams, prospering together. Offering affordable funding through mobilization of our resources."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Join Now"
+        link : "contact/"
+
+    # slider item loop
+    - title : "Together We Grow, Together We Prosper"
+      content : "Your success is our success. Together, we build wealth that lasts. Quick & affordable loans for every need."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Apply for a Loan"
+        link : "course/"
+
+    # slider item loop
+    - title : "Your Trusted Financial Partner"
+      content : "Secure and trusted. Your savings are protected. Attractive dividends and interest on savings for all our members."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Contact Us"
+        link : "contact/"
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : true
+  image : "images/banner/banner-feature.png"
+  feature_item:
+    # feature item loop
+    - name : "Fast Approval"
+      icon : "ti-timer" # icon pack : https://themify.me/themify-icons
+      content : "Quick and hassle-free loan processing for all our members."
+
+    # feature item loop
+    - name : "Competitive Interest Rates"
+      icon : "ti-stats-up" # icon pack : https://themify.me/themify-icons
+      content : "Lower rates, better value for every shilling you borrow."
+
+    # feature item loop
+    - name : "Flexible Repayment"
+      icon : "ti-receipt" # icon pack : https://themify.me/themify-icons
+      content : "Repayment plans that fit your needs and your farming cycle."
+
+    # feature item loop
+    - name : "Secure & Trusted"
+      icon : "ti-shield" # icon pack : https://themify.me/themify-icons
+      content : "Your savings are protected. We are committed to quick and affordable loans."
+
+
+############################## about ##################################
+about:
+  enable : true
+  title : "About Kamesko Sacco Society"
+  image : "images/about/about-us.jpg"
+  content : "Kamesko Sacco Society is a member-owned financial cooperative located in Kansabet, Nandi County. We are committed to catalyzing the industry, actualizing the dreams, and prospering together with our members. Through the mobilization of our resources, we offer affordable funding that empowers farmers and the community. Together we grow, together we prosper – your success is our success."
+  button:
+    enable : true
+    label : "Learn more"
+    link : "about/"
+
+
+############################# Course ################################
+course:
+  enable : true
+  title : "Our Loan Products"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : true
+  subtitle : "Affordable Loans for Every Need"
+  title : "Quick & Affordable Loans"
+  button:
+    enable : true
+    label : "Apply Now"
+    link : "contact/"
+
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "Shared Prosperity, Real Impact"
+  content : "Kamesko Sacco rewards its members through attractive dividends and interest on savings. We provide linkages with participating partners, giving you access to more opportunities and value through our trusted partnerships. We reinvest in you and our community through member empowerment. Your success is our success. Together, we build wealth that lasts."
+  # video link
+  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+
+
+############################# event ################################
+event:
+  enable : true
+  title : "Upcoming Events"
+  # event item comes from "content/**/event" folder.
+
+  
+########################### funfacts ############################
+funfacts:
+  enable : true
+  funfact_item:
+    # funfact item loop
+    - name : "MEMBERS"
+      count : "60"
+
+    # funfact item loop
+    - name : "LOAN PRODUCTS"
+      count : "50"
+
+    # funfact item loop
+    - name : "FARMERS"
+      count : "1000"
+
+    # funfact item loop
+    - name : "SATISFIED MEMBERS"
+      count : "1400"
+
+# funfact is for about page
+
+
+
+############################# blog ################################
+blog:
+  enable : true
+  title : "Latest News"
+  # blog item comes from "content/**/blog" folder.

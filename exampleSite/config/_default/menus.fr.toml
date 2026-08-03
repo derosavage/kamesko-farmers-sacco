@@ -1,0 +1,61 @@
+################### French navigation ####################
+
+# main menu
+[[main]]
+name = "À propos"
+url = "about/"
+weight = 1
+
+[[main]]
+name = "Produits de prêt"
+url = "course/"
+weight = 2
+
+[[main]]
+weight = 3
+name = "Pages"
+hasChildren = true
+
+  [[main]]
+  parent = "Pages"
+  name = "Avis"
+  url = "notice/"
+
+  [[main]]
+  parent = "Pages"
+  name = "Événements"
+  url = "event/"
+
+  [[main]]
+  parent = "Pages"
+  name = "Recherche"
+  url = "research/"
+
+[[main]]
+name = "Nouvelles"
+url = "blog/"
+weight = 4
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 5
+
+
+# footer menu
+
+[[footer]]
+name = "Avis"
+url = "notice/"
+
+[[footer]]
+name = "Événements"
+url = "event/"
+
+[[footer]]
+name = "Recherche"
+url = "research/"
+
+[[footer]]
+name = "Contact"
+url = "contact/"
