@@ -1,36 +1,48 @@
 /* banner feature */
 .feature-icon {
-  font-size: 50px;
+  font-size: 38px;
   color: $primary-color;
   display: inline-block;
 }
 
 .feature-blocks {
-  margin-top: -100px;
-  padding-left: 70px;
-  padding-top: 80px;
-  padding-right: 30%;
+  margin-top: -80px;
+  padding-left: 50px;
+  padding-top: 60px;
+  padding-right: 25%;
 
   @include desktop-xl {
     padding-right: 10%;
   }
 
   @include desktop-lg {
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-top: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 25px;
+
+    h3 {
+      font-size: 18px;
+    }
+  }
+
+  @include desktop {
+    margin-top: 0;
+    padding: 40px;
 
     h3 {
       font-size: 20px;
     }
   }
 
-  @include desktop {
-    margin-top: 0;
-    padding: 50px;
+  @include mobile {
+    padding: 25px;
+
+    .feature-icon {
+      font-size: 30px;
+    }
 
     h3 {
-      font-size: 25px;
+      font-size: 16px;
     }
   }
 }
@@ -76,16 +88,16 @@
 
 .play-btn {
   display: inline-block;
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   background: $primary-color;
   color: $white;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 
   i {
-    line-height: 80px;
+    line-height: 60px;
   }
 
   &::before {
@@ -140,14 +152,14 @@
   background: $primary-color;
   font-family: $secondary-font;
   text-align: center;
-  padding: 10px;
+  padding: 8px;
   color: $white;
   top: 0;
   left: 0;
   text-transform: uppercase;
 
   span {
-    font-size: 40px;
+    font-size: 28px;
   }
 }
 
@@ -229,7 +241,7 @@
 
 .footer {
   border-color: #494a43 !important;
-  padding-top: 275px;
+  padding-top: 200px;
   color: #8996a7;
   a {
     color: #8996a7;

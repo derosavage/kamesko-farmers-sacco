@@ -1,5 +1,9 @@
 .hero-section {
-  padding: 250px 0 290px;
+  padding: 160px 0 200px;
+
+  @include mobile {
+    padding: 110px 0 150px;
+  }
 }
 
 .hero-slider {
