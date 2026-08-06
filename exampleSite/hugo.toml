@@ -91,7 +91,7 @@ link = "plugins/google-map/gmap.js"
 # Preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.png" # use jpg, png, svg or gif format.
+preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Subscription
 [params.subscription]
